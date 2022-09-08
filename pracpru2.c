@@ -7,7 +7,7 @@ void to_lower(char *string){
   // printf("Introduce una palabra en minuscula\n");
   int i = 0;
   if (i != '\n') {
-    int n = tolower(string[i]);
+    int n = tolower(string[i  ]);
     i++;
     printf("%c", n);
   }
